@@ -103,12 +103,16 @@ function submitted() {
   let easeOfUse = newRow.insertCell(2);
   let season = newRow.insertCell(3);
 
-  character.innerHTML = selectedCharacter.name;
-  archetype.innerHTML = selectedCharacter.archetype;
-  easeOfUse.innerHTML = selectedCharacter.easeOfUse;
-  season.innerHTML = selectedCharacter.seasonAdded;
+  try {
+    character.innerHTML = selectedCharacter.name;
+    archetype.innerHTML = selectedCharacter.archetype;
+    easeOfUse.innerHTML = selectedCharacter.easeOfUse;
+    season.innerHTML = selectedCharacter.seasonAdded;
 
-  checkAnswer(character, archetype, easeOfUse, season);
+    checkAnswer(character, archetype, easeOfUse, season);
+  } catch {
+    console.log("Character not found");
+  }
 
 } //end submit button event handler
 
