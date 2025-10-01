@@ -1,0 +1,47 @@
+body {
+  background: rgb(182,23,4);
+  font-family: 'Impact', 'Courier';
+}
+.wrapper {
+  position: relative;
+  text-align: center;
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.inputBox {
+  width: 10rem;
+}
+
+.selectorBox {
+  background-color: black;
+  color: white;
+  width: 10.5rem;
+  position: absolute;
+  left: 28.25rem;
+}
+
+.autoOption {
+  opacity: 75%;
+}
+
+.resultsTable {
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.resultsTable th, .resultsTable td {
+  width: 8rem;
+}
+
+.resultsTable td {
+  height: 4rem;
+}
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: red;
+}
