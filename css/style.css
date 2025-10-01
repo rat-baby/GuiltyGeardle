@@ -19,6 +19,7 @@ body {
   width: 10.5rem;
   position: absolute;
   left: 28.25rem;
+  cursor: pointer;
 }
 
 .autoOption {

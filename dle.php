@@ -16,7 +16,7 @@
   $today = date("d");
   $lastDay = $answerObject->lastUpdated;
 
-  if ($lastDay < $today || ($today == 1 && $lastDay != 1)) {
+  if ($lastDay != $today) {
     $answerObject->character = rand(0,32);
     $answerObject->lastUpdated = $today;
 

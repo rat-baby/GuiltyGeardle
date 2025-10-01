@@ -97,6 +97,9 @@ function submitted() {
 
   //inserting new row at the current bottom of the table
   //might have to change this, not sure how it'll play with jQuery animation
+
+  //TODO: maybe refactor this to add rows after checking the answer
+  //as-is, it adds rows even if the error occurs, just leaves them empty
   let newRow = resultsTable.insertRow();
   let character = newRow.insertCell(0);
   let archetype = newRow.insertCell(1);
