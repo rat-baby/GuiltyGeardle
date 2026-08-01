@@ -31,6 +31,8 @@
     {"name": "Queen Dizzy", "archetype": "Unique", "easeOfUse": 3, "seasonAdded": "Season 4"},
     {"name": "Venom", "archetype": "Zoner", "easeOfUse": 1, "seasonAdded": "Season 4"},
     {"name": "Unika", "archetype": "Balance", "easeOfUse": 5, "seasonAdded": "Season 4"},
-    {"name": "Lucy", "archetype": "Balance", "easeOfUse": 4, "seasonAdded": "Season 4"}
+    {"name": "Lucy", "archetype": "Balance", "easeOfUse": 4, "seasonAdded": "Season 4"},
+    {"name": "Jam Kuradoberi", "archetype": "Rushdown", "easeOfUse": 4, "seasonAdded": "Season 5"},
+    {"name": "Robo-Ky", "archetype": "Unique", "easeOfUse": 3, "seasonAdded": "Season 5"}
   ]
 }

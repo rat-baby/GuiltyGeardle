@@ -60,7 +60,7 @@ function entry(event) {
 
   let autoOptions = document.querySelectorAll('.autoOption');
   for (let i = 0; i < autoOptions.length; i++) {
-    autoOptions[i].addEventListener("click", autofill)
+    autoOptions[i].addEventListener("click", autofill);
     addHover(autoOptions[i]);
   }
   
@@ -74,6 +74,7 @@ function entry(event) {
 function autofill() {
   inputBox.value = this.innerHTML
   hideAutocomplete();
+  submitted();
 }
 
 //TODO: research persisting entries, maybe php session variables
