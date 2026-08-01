@@ -146,7 +146,11 @@ function checkAnswer(character, archetype, easeOfUse, season) {
   }
 
   if (temp == 4) {
+    //detecting when the player wins here
     console.log("win");
+    inputBox.value = "You Win!";
+    inputBox.disabled = true;
+    submitButton.removeEventListener("click", submitted);
   }
 }
 
